@@ -55,4 +55,4 @@ Pedido, apenas criando novas implementações de Frete.
 Isso evita alterações frequentes em Pedido sempre que novos estados forem adicionados, tornando o sistema mais organizado, 
 extensível e de fácil manutenção.
 
-- Facade: O padrão Facade foi utilizado para centralizar e simplificar o acesso à lógica de negócio relacionada aos pedidos. Ele permite que a camada de controle interaja com o sistema por meio de uma interface única e direta, sem precisar conhecer os detalhes de implementação. Isso promove baixo acoplamento, organização do código e facilidade de manutenção
+- Facade: O padrão Facade foi utilizado para centralizar e simplificar o acesso à lógica de negócio relacionada aos pedidos. Ele permite que a camada de controle interaja com o sistema por meio de uma interface única e direta, sem precisar conhecer os detalhes de implementação. Isso promove baixo acoplamento, organização do código e facilidade de manutenção.
