@@ -51,9 +51,8 @@ Padrões de projetos utilizados:
 com a regra de cálculo. Seguindo o princípio Open/Closed, novos métodos de envio podem ser adicionados sem alterar a classe 
 Pedido, apenas criando novas implementações de Frete.
 
-- State: Cada estado do pedido foi encapsulado em uma classe específica, permitindo que o próprio estado controle seu  
-comportamento. Com isso, a classe Pedido deixa de ter if, else ou switch para validar ações como pagar(), cancelar() e enviar(). 
-Isso evitaalterações frequentes em Pedido sempre que novos estados forem adicionados, tornando o sistema mais organizado, 
+- State: Cada estado do pedido foi encapsulado em uma classe específica, permitindo que o próprio estado controle seu comportamento. Com isso, a classe Pedido deixa de ter if, else ou switch para validar ações como pagar(), cancelar() e enviar(). 
+Isso evita alterações frequentes em Pedido sempre que novos estados forem adicionados, tornando o sistema mais organizado, 
 extensível e de fácil manutenção.
 
 - Facade: O padrão Facade foi utilizado para centralizar e simplificar o acesso à lógica de negócio relacionada aos pedidos. Ele permite que a camada de controle interaja com o sistema por meio de uma interface única e direta, sem precisar conhecer os detalhes de implementação. Isso promove baixo acoplamento, organização do código e facilidade de manutenção
